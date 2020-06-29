@@ -1,7 +1,10 @@
 package com.example.tourguideapplondon;
 
 
-public class Item {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class Item implements Parcelable {
 
     /**
      * Constant value that represents no image was provided for this word
@@ -90,6 +93,28 @@ public class Item {
         mMapButton = mapButton;
     }
 
+    protected Item(Parcel in) {
+        mImageResourceId = in.readInt();
+        mAttractionName = in.readString();
+        mAttractionDescription = in.readString();
+        hasDescription = in.readByte() != 0;
+        mLatitude = in.readDouble();
+        mLongitude = in.readDouble();
+        mMapButton = in.readInt();
+    }
+
+    public static final Creator<Item> CREATOR = new Creator<Item>() {
+        @Override
+        public Item createFromParcel(Parcel in) {
+            return new Item(in);
+        }
+
+        @Override
+        public Item[] newArray(int size) {
+            return new Item[size];
+        }
+    };
+
     /**
      * Get the string resource ID for the Item name
      */
@@ -144,5 +169,21 @@ public class Item {
      */
     public boolean hasDescription() {
         return hasDescription;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(mImageResourceId);
+        dest.writeString(mAttractionName);
+        dest.writeString(mAttractionDescription);
+        dest.writeByte((byte) (hasDescription ? 1 : 0));
+        dest.writeDouble(mLatitude);
+        dest.writeDouble(mLongitude);
+        dest.writeInt(mMapButton);
     }
 }

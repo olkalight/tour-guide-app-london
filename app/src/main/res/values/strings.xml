@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Tour Guide London</string>
+    <!-- Category name for items [CHAR LIMIT=20] -->
+    <string name="category_attractions">Attractions</string>
+
+    <!-- Category name for museums [CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
+
+    <!-- Category name for the restaurants [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Category name for the shops [CHAR LIMIT=20] -->
+    <string name="category_shops">Shops</string>
+    <!-- Description for ImageView -->
+    <string name="image_view_descript">Image</string>
+
+    <!-- attractions names -->
+    <string name="attraction_one">Borough Market</string>
+    <string name="attraction_two">Buckingham Palace</string>
+    <string name="attraction_three">London Eye</string>
+    <string name="attraction_four">Madame Tussauds</string>
+    <string name="attraction_five">Tower Bridge</string>
+
+    <!-- museums names -->
+    <string name="museum_one">British Museum</string>
+    <string name="museum_two">Hayward Gallery</string>
+    <string name="museum_three">National Gallery</string>
+    <string name="museum_four">Saatchi Gallery</string>
+    <string name="museum_five">Tate Modern</string>
+
+    <!-- restaurants names -->
+    <string name="restaurant_one">City Social</string>
+    <string name="restaurant_two">Coq d\'Argent</string>
+    <string name="restaurant_three">German Gymnasium</string>
+    <string name="restaurant_four">Granger &amp; Co</string>
+    <string name="restaurant_five">Sexy Fish</string>
+    <string name="restaurant_six">Sketch London</string>
+    <string name="restaurant_seven">Vardo Restaurant</string>
+    <string name="restaurant_eight">Zuma London</string>
+
+    <!-- shops names -->
+    <string name="shop_one">Carnaby Street</string>
+    <string name="shop_two">Covent Garden</string>
+    <string name="shop_three">Harrods</string>
+    <string name="shop_four">Harvey Nichols Knightsbridge</string>
+    <string name="shop_five">House of Fraser</string>
+    <string name="shop_six">Selfridges</string>
+    <string name="shop_seven">Westfield Stratford City</string>
+
+    <!-- museums short descriptions (info from wikipedia.org) -->
+    <string name="attr_one_descript">Borough Market is a wholesale and retail \n
+        market hall in Southwark, London, \n
+        England. It is one of the largest and \n
+        oldest food markets in London, with \n
+        a market on the site dating back to \n
+        at least the 12th century. The present \n
+        buildings were built in the 1850s, and \n
+        today the market mainly sells speciality \n
+        foods to the general public.</string>
+    <string name="attr_two_descript">Buckingham Palace is the London \n
+        residence and administrative headquarters \n
+        of the monarchy of the United Kingdom. \n
+        Located in the City of Westminster, the \n
+        palace is often at the centre of state \n
+        occasions and royal hospitality. It has \n
+        been a focal point for the British people \n
+        at times of national rejoicing and \n
+        mourning.</string>
+    <string name="attr_three_descript">The London Eye, or the Millennium Wheel, \n
+        is a cantilevered observation wheel on \n
+        the South Bank of the River Thames in \n
+        London. It is Europe\'s tallest cantilevered \n
+        observation wheel, and is the most \n
+        popular paid tourist attraction in the \n
+        United Kingdom with over 3 million \n
+        visitors annually, and has made many \n
+        appearances in popular culture.</string>
+    <string name="attr_four_descript">Madame Tussauds is a wax museum in \n
+        London. It was founded by wax sculptor \n
+        Marie Tussaud. It is a major tourist \n
+        attraction in London, displaying the \n
+        waxworks of famous and historical figures,\n
+        as well as popular film and television \n
+        characters from famous actors.</string>
+    <string name="attr_five_descript">Tower Bridge is a combined bascule and \n
+        suspension bridge in London, built \n
+        between 1886 and 1894. The bridge \n
+        crosses the River Thames close to \n
+        the Tower of London and has become \n
+        an iconic symbol of London. </string>
+
+    <!-- museums short descriptions (info from wikipedia.org) -->
+    <string name="museum_one_descript">The British Museum, in the Bloomsbury \n
+        area of London, is a public institution \n
+        dedicated to human history, art and \n
+        culture. Its permanent collection of some \n
+        eight million works is among the largest \n
+        and most comprehensive in existence, \n
+        having been widely sourced during the\n
+        era of the British Empire. It was the first \n
+        public national museum in the world. </string>
+    <string name="museum_two_descript">The Hayward Gallery is an art gallery \n
+        within the Southbank Centre in central \n
+        London, and part of an area of major arts\n
+        venues on the South Bank of the River \n
+        Thames. The Hayward Gallery was built \n
+        by Higgs and Hill and opened on \n
+        9 July 1968. Its massing and extensive use \n
+        of exposed concrete construction are \n
+        features typical of Brutalist architecture.\n
+        The Hayward does not house a \n
+        permanent collection. Instead, it hosts \n
+        three or four major temporary exhibitions \n
+        of modern or contemporary artworks \n
+        each year. </string>
+    <string name="museum_three_descript">The National Gallery is an art museum \n
+    in Trafalgar Square in the City of \n
+        Westminster, in Central London.\n
+    Founded in 1824, it houses a collection \n
+        of over 2,300 paintings dating from the \n
+        mid-13th century to 1900. </string>
+    <string name="museum_four_descript">The Saatchi Gallery is a London gallery \n
+        for contemporary art, opened by Charles \n
+        Saatchi in 1985 in order to exhibit\n
+        his collection to the public. Saatchi\'s \n
+        collection has had distinct phases, starting \n
+        with US artists and minimalism, moving to \n
+        the Damien Hirst-led Young British Artists, \n
+        followed by shows purely of painting, and \n
+        then returning to contemporary art from \n
+        America. In 2010, it was announced that \n
+        the gallery would be given to the British \n
+        public, becoming the Museum of \n
+        Contemporary Art for London. </string>
+    <string name="museum_five_descript">Tate Modern is a modern art gallery\n
+        located in London. It is Britain national \n
+        gallery of international modern art.\n
+        It is based in the former Bankside\n
+        Power Station, in the Bankside area\n
+        of the London Borough of Southwark. </string>
+</resources>
+
+
+

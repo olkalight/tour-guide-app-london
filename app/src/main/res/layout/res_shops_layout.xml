@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!-- layout for restaurant and shop fragments -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_container"
+    style="@style/RelativeLayoutResShops">
+
+    <ImageView
+        android:id="@+id/item_image_view"
+        style="@style/ImageViewResShops"
+        android:contentDescription="@string/image_view_descript"
+        tools:src="@drawable/city_social" />
+
+    <TextView
+        android:id="@+id/name_text_view"
+        style="@style/TextViewResShops"
+        tools:text="name" />
+
+    <ImageView
+        android:id="@+id/map_button"
+        style="@style/mapButtonResShops"
+        android:contentDescription="@string/image_view_descript"
+        tools:src="@drawable/google_maps" />
+
+</RelativeLayout>

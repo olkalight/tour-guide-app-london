@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6FBFAD</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- App background color -->
+    <color name="app_background">#E9F7F7</color>
+    <!-- Background color for attractions -->
+    <color name="attr_background">#DDF0EB</color>
+    <!-- Background color for museums -->
+    <color name="mus_background">#DFF2ED</color>
+    <!-- Background color for restaurants -->
+    <color name="res_background">#D8F0EA</color>
+    <!-- Background color for shops -->
+    <color name="shops_background">#CAE6DE</color>
+    <!-- Text color -->
+    <color name="text_color">#000000</color>
+</resources>

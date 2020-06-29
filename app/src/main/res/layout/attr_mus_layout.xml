@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!-- layout for restaurant and shop fragments -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    style="@style/CardViewAttrMus">
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        style="@style/LinearLayoutAttrMus">
+
+        <RelativeLayout style="@style/RelativeLayoutAttrMus">
+
+            <ImageView
+                android:id="@+id/item_image_view"
+                style="@style/ImageViewAttrMus"
+                android:contentDescription="@string/image_view_descript"
+                tools:src="@drawable/tate_modern" />
+
+            <TextView
+                android:id="@+id/name_text_view"
+                style="@style/NameTextViewAttrMus" />
+
+            <TextView
+                android:id="@+id/description_text_view"
+                style="@style/DescriptTextViewAttrMus"
+                tools:text="@string/category_museums" />
+
+            <ImageView
+                android:id="@+id/map_button"
+                style="@style/mapButtonAttrMus"
+                android:contentDescription="@string/image_view_descript"
+                tools:src="@drawable/google_maps" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

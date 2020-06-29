@@ -1,0 +1,137 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="TourGuideLondon" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">@dimen/zero</item>
+    </style>
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/text_color</item>
+        <item name="tabSelectedTextColor">@color/text_color</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        <item name="tabMaxWidth">@dimen/zero</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">scrollable</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#9EB0B0</item>
+    </style>
+
+    <!-- Restaurants and Shops styling -->
+
+    <!-- style for a RelativeLayout -->
+    <style name="RelativeLayoutResShops">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_size</item>
+        <item name="android:background">@color/app_background</item>
+        <item name="android:minHeight">@dimen/list_item_size</item>
+        <item name="android:layout_margin">@dimen/regular_margin</item>
+    </style>
+    <!-- style for the ImageView -->
+    <style name="ImageViewResShops">
+        <item name="android:layout_width">@dimen/list_item_size</item>
+        <item name="android:layout_height">@dimen/list_item_size</item>
+        <item name="android:layout_margin">@dimen/regular_margin</item>
+    </style>
+    <!-- style for the TextView -->
+    <style name="TextViewResShops">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_toEndOf">@id/item_image_view</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:fontFamily">@font/josefinsanssemibold</item>
+        <item name="android:paddingStart">@dimen/medium_padding</item>
+        <item name="android:paddingEnd">@dimen/regular_padding</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- style for the mapButton -->
+    <style name="mapButtonResShops">
+        <item name="android:layout_width">@dimen/small_image_size</item>
+        <item name="android:layout_height">@dimen/small_image_size</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">@dimen/medium_margin</item>
+    </style>
+
+    <!-- Attractions and Museums styling -->
+
+    <!-- style for CardView  -->
+    <style name="CardViewAttrMus">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="cardCornerRadius">@dimen/card_view_sizing</item>
+        <item name="cardMaxElevation">@dimen/card_view_sizing</item>
+        <item name="cardElevation">@dimen/card_view_sizing</item>
+        <item name="android:layout_margin">@dimen/regular_margin</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+    <!-- style for LinearLayout  -->
+    <style name="LinearLayoutAttrMus">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!-- style for RelativeLayout  -->
+    <style name="RelativeLayoutAttrMus">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/regular_padding</item>
+    </style>
+    <!-- style for ImageView  -->
+    <style name="ImageViewAttrMus">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/image_view_sizing</item>
+        <item name="android:layout_marginTop">@dimen/regular_margin</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <!-- style for Name TextView  -->
+    <style name="NameTextViewAttrMus">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/item_image_view</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:padding">@dimen/regular_padding</item>
+        <item name="android:fontFamily">@font/josefinsanssemibold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!-- style for Description TextView  -->
+    <style name="DescriptTextViewAttrMus">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/name_text_view</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:paddingBottom">@dimen/large_padding</item>
+        <item name="android:paddingRight">@dimen/regular_padding</item>
+        <item name="android:paddingLeft">@dimen/regular_padding</item>
+        <item name="android:gravity">left</item>
+        <item name="android:fontFamily">@font/alexandriaitalic</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <!-- style for the mapButton -->
+    <style name="mapButtonAttrMus">
+        <item name="android:layout_width">@dimen/medium_image_size</item>
+        <item name="android:layout_height">@dimen/medium_image_size</item>
+        <item name="android:layout_below">@id/name_text_view</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:padding">@dimen/regular_padding</item>
+    </style>
+</resources>
